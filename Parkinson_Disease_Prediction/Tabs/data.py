@@ -47,7 +47,7 @@ def app(df):
     st.markdown("""
                     <p style="font-size:24px">
                         <a 
-                            href="https://raw.githubusercontent.com/DataMinati/Streamlit-Database/main/Parkinsson%20disease.csv"
+                            href="https://github.com/swapnil0402/Projects/raw/main/Parkinson_Disease_Prediction/Parkinson.csv"
                             target=_blank
                             style="text-decoration:none;"
                         >Get Dataset
