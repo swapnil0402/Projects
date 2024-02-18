@@ -3,7 +3,6 @@
 # Import necessary modules
 import numpy as np
 import pandas as pd
-from sklearn.tree import DecisionTreeClassifier
 import streamlit as st
 from sklearn.model_selection import train_test_split
 import xgboost as xgb
@@ -12,10 +11,11 @@ from sklearn.metrics import accuracy_score
 
 
 @st.cache_data()
+
 def load_data():
     """This function returns the preprocessed data"""
 
-    df = pd.read_csv('Parkinson.csv')
+    df = pd.read_csv('Parkinson_Disease_Prediction\Parkinson.csv')
 
     # Rename the column names in the DataFrame.
     df.rename(columns = {"MDVP:Fo(Hz)": "AVFF",}, inplace = True)

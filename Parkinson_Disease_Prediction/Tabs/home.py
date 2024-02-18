@@ -10,7 +10,7 @@ def app():
     st.title("Parkinson's Disease Predictor")
 
     # Add image to the home page
-    st.image("./images/home.png")
+    st.image("Parkinson_Disease_Prediction\images\home.png")
 
     # Add brief describtion of your web app
     st.markdown(
